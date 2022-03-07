@@ -59,6 +59,8 @@ $routes->get('bankaccount/delete/(:num)', 'BankAccount::delete/$1',['filter' => 
 
 //Dashboard Route
 $routes->get('/dashboard', 'Home::index', ['filter' => 'authGuard']);
+$routes->get('/', 'Home::index', ['filter' => 'authGuard']);
+
 
 
 /*
