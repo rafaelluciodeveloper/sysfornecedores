@@ -36,7 +36,7 @@ class Report extends Controller
             foreach ($r["accounts"] as $c){
                 $data .= "<p><b>Agency :</b>" . $c["agency"]. "</p></br>"
                    . "<p><b>Account :</b>" . $c["account"] . "</p></br>"
-                   . "<p><b>Bank :</b>" . $c["description"] . "</p></br></br><hr/>";
+                   . "<p><b>Bank :</b>" . $c["description"] . "</p></br><hr/>";
             }
 
         }
