@@ -43,6 +43,9 @@ class Report extends Controller
 
         $mpdf->WriteHTML($data);
 
+        header("Content-Type: application/pdf");
+        
         $mpdf->Output("report.pdf", "I");
+
     }
 }
