@@ -26,7 +26,6 @@ class Report extends Controller
             array_push($result ,$supplier );
         }
 
-        $this->response->setHeader('Content-Type', 'application/pdf');
         $mpdf = new Mpdf;
         $mpdf->SetHeader('SysFornecedores|Suppliers Report|{PAGENO}');
         $mpdf->SetFooter('SysFornecedores');
