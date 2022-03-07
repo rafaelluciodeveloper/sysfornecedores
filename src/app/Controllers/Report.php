@@ -43,6 +43,6 @@ class Report extends Controller
 
         $mpdf->WriteHTML($data);
 
-        $mpdf->Output();
+        $mpdf->Output("report.pdf", "I");
     }
 }
