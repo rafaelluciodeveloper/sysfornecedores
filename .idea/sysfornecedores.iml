@@ -56,6 +56,10 @@
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/mpdf/mpdf" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/setasign/fpdi" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/db_data/mysql" />
+      <excludeFolder url="file://$MODULE_DIR$/db_data/performance_schema" />
+      <excludeFolder url="file://$MODULE_DIR$/db_data/sys" />
+      <excludeFolder url="file://$MODULE_DIR$/db_data/sysfornecedores" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

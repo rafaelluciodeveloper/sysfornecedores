@@ -1,0 +1,252 @@
+ERROR - 2022-03-07 00:17:16 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers`, CONSTRAINT `suppliers_ibfk_1` FOREIGN KEY (`type_supplier_id`) REFERENCES `type_supplier` (`id`))
+CRITICAL - 2022-03-07 00:27:07 --> syntax error, unexpected end of file, expecting '`'
+#0 /var/www/html/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('/')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-07 00:45:53 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 00:45:53 --> Table 'sysfornecedores.bank_accounts_suppliers' doesn't exist
+ERROR - 2022-03-07 00:45:53 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 00:45:53 --> Table 'sysfornecedores.bank_accounts_suppliers' doesn't exist
+ERROR - 2022-03-07 00:48:10 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 00:48:10 --> Table 'sysfornecedores.bank_accounts_suppliers' doesn't exist
+ERROR - 2022-03-07 00:48:10 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 00:48:10 --> Table 'sysfornecedores.bank_accounts_suppliers' doesn't exist
+ERROR - 2022-03-07 00:48:50 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 00:48:50 --> Table 'sysfornecedores.bank_accounts_suppliers' doesn't exist
+ERROR - 2022-03-07 00:48:50 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 00:48:50 --> Table 'sysfornecedores.bank_accounts_suppliers' doesn't exist
+ERROR - 2022-03-07 00:49:59 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 00:49:59 --> Table 'sysfornecedores.bank_accounts_suppliers' doesn't exist
+ERROR - 2022-03-07 00:49:59 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 00:49:59 --> Table 'sysfornecedores.bank_accounts_suppliers' doesn't exist
+ERROR - 2022-03-07 00:51:41 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 00:51:41 --> Table 'sysfornecedores.bank_accounts_suppliers' doesn't exist
+ERROR - 2022-03-07 00:51:41 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 00:51:41 --> Table 'sysfornecedores.bank_accounts_suppliers' doesn't exist
+ERROR - 2022-03-07 00:52:40 --> Table 'sysfornecedores.bank_accounts_suppliers' doesn't exist
+ERROR - 2022-03-07 00:52:40 --> Table 'sysfornecedores.bank_accounts_suppliers' doesn't exist
+ERROR - 2022-03-07 00:54:51 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers_bank_accounts`, CONSTRAINT `suppliers_bank_accounts_ibfk_3` FOREIGN KEY (`bank_accounts_id`) REFERENCES `bank_accounts` (`id`))
+ERROR - 2022-03-07 00:54:51 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers_bank_accounts`, CONSTRAINT `suppliers_bank_accounts_ibfk_3` FOREIGN KEY (`bank_accounts_id`) REFERENCES `bank_accounts` (`id`))
+CRITICAL - 2022-03-07 00:57:50 --> Class 'App\Models\SupplierBankAccountModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Supplier->store()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-07 00:58:10 --> Column 'bank_id' cannot be null
+CRITICAL - 2022-03-07 00:58:10 --> Call to a member function insert() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Supplier->store()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-07 00:58:30 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 00:58:30 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers_bank_accounts`, CONSTRAINT `suppliers_bank_accounts_ibfk_4` FOREIGN KEY (`bank_accounts_id`) REFERENCES `bank_accounts` (`id`))
+ERROR - 2022-03-07 00:59:43 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 00:59:43 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers_bank_accounts`, CONSTRAINT `suppliers_bank_accounts_ibfk_4` FOREIGN KEY (`bank_accounts_id`) REFERENCES `bank_accounts` (`id`))
+ERROR - 2022-03-07 01:01:30 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 01:01:30 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers_bank_accounts`, CONSTRAINT `suppliers_bank_accounts_ibfk_4` FOREIGN KEY (`bank_accounts_id`) REFERENCES `bank_accounts` (`id`))
+ERROR - 2022-03-07 01:03:09 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 01:03:09 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers_bank_accounts`, CONSTRAINT `suppliers_bank_accounts_ibfk_4` FOREIGN KEY (`bank_accounts_id`) REFERENCES `bank_accounts` (`id`))
+ERROR - 2022-03-07 01:04:05 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 01:04:05 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers_bank_accounts`, CONSTRAINT `suppliers_bank_accounts_ibfk_4` FOREIGN KEY (`bank_accounts_id`) REFERENCES `bank_accounts` (`id`))
+ERROR - 2022-03-07 01:05:13 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 01:05:13 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers_bank_accounts`, CONSTRAINT `suppliers_bank_accounts_ibfk_4` FOREIGN KEY (`bank_accounts_id`) REFERENCES `bank_accounts` (`id`))
+ERROR - 2022-03-07 01:06:56 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 01:06:56 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers_bank_accounts`, CONSTRAINT `suppliers_bank_accounts_ibfk_4` FOREIGN KEY (`bank_accounts_id`) REFERENCES `bank_accounts` (`id`))
+CRITICAL - 2022-03-07 01:07:07 --> Cannot use object of type App\Models\BankModel as array
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Supplier->store()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 01:07:24 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Supplier->store()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-07 01:07:40 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 01:07:40 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers_bank_accounts`, CONSTRAINT `suppliers_bank_accounts_ibfk_4` FOREIGN KEY (`bank_accounts_id`) REFERENCES `bank_accounts` (`id`))
+ERROR - 2022-03-07 01:07:51 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 01:07:51 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers_bank_accounts`, CONSTRAINT `suppliers_bank_accounts_ibfk_4` FOREIGN KEY (`bank_accounts_id`) REFERENCES `bank_accounts` (`id`))
+ERROR - 2022-03-07 01:10:07 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 01:10:07 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers_bank_accounts`, CONSTRAINT `suppliers_bank_accounts_ibfk_4` FOREIGN KEY (`bank_accounts_id`) REFERENCES `bank_accounts` (`id`))
+ERROR - 2022-03-07 01:10:33 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 01:10:33 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers_bank_accounts`, CONSTRAINT `suppliers_bank_accounts_ibfk_4` FOREIGN KEY (`bank_accounts_id`) REFERENCES `bank_accounts` (`id`))
+CRITICAL - 2022-03-07 01:10:47 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Supplier->store()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 01:11:10 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Supplier->store()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-07 01:11:30 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 01:11:30 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers_bank_accounts`, CONSTRAINT `suppliers_bank_accounts_ibfk_4` FOREIGN KEY (`bank_accounts_id`) REFERENCES `bank_accounts` (`id`))
+CRITICAL - 2022-03-07 01:11:51 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Supplier->store()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 01:12:42 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Supplier->store()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 01:26:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::queryResult()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Supplier->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 01:26:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::queryResult()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Supplier->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 01:28:41 --> Cannot use object of type stdClass as array
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('supplier/list', Array, true)
+#3 /var/www/html/app/Controllers/Supplier.php(24): view('supplier/list', Array)
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Supplier->index()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-07 01:44:55 --> Cannot delete or update a parent row: a foreign key constraint fails (`sysfornecedores`.`bank_accounts`, CONSTRAINT `bank_accounts_ibfk_2` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+ERROR - 2022-03-07 01:44:59 --> Cannot delete or update a parent row: a foreign key constraint fails (`sysfornecedores`.`bank_accounts`, CONSTRAINT `bank_accounts_ibfk_2` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+ERROR - 2022-03-07 01:45:47 --> Cannot delete or update a parent row: a foreign key constraint fails (`sysfornecedores`.`bank_accounts`, CONSTRAINT `bank_accounts_ibfk_2` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+ERROR - 2022-03-07 01:45:49 --> Cannot delete or update a parent row: a foreign key constraint fails (`sysfornecedores`.`bank_accounts`, CONSTRAINT `bank_accounts_ibfk_2` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+ERROR - 2022-03-07 01:45:51 --> Cannot delete or update a parent row: a foreign key constraint fails (`sysfornecedores`.`bank_accounts`, CONSTRAINT `bank_accounts_ibfk_2` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+ERROR - 2022-03-07 02:00:00 --> Column 'bank_id' cannot be null
+CRITICAL - 2022-03-07 02:27:16 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/supplier/edit.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 29, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/a...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('supplier/edit', Array, true)
+#4 /var/www/html/app/Controllers/Supplier.php(101): view('supplier/edit', Array)
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Supplier->singleSupplier('53')
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 02:58:49 --> Class 'App\Controllers\mPDF' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Report->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 08:59:04 --> count(): Parameter must be an array or an object that implements Countable
+#0 /var/www/html/vendor/mpdf/mpdf/classes/ttfontsuni.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/var/www/html/v...', 613, Array)
+#1 /var/www/html/vendor/mpdf/mpdf/classes/ttfontsuni.php(202): TTFontFile->extractInfo(false, true, 0)
+#2 /var/www/html/vendor/mpdf/mpdf/mpdf.php(3880): TTFontFile->getMetrics('/var/www/html/v...', 'dejavuserifcond...', 0, false, true, 0)
+#3 /var/www/html/vendor/mpdf/mpdf/mpdf.php(4246): mPDF->AddFont('dejavuserifcond...', '')
+#4 /var/www/html/vendor/mpdf/mpdf/mpdf.php(13621): mPDF->SetFont('dejavuserifcond...')
+#5 /var/www/html/vendor/mpdf/mpdf/mpdf.php(1287): mPDF->SetDefaultFont('serif')
+#6 /var/www/html/app/Controllers/Report.php(13): mPDF->__construct()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Report->index()
+#8 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-07 09:08:03 --> count(): Parameter must be an array or an object that implements Countable
+#0 /var/www/html/vendor/mpdf/mpdf/classes/ttfontsuni.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/var/www/html/v...', 613, Array)
+#1 /var/www/html/vendor/mpdf/mpdf/classes/ttfontsuni.php(202): TTFontFile->extractInfo(false, true, 0)
+#2 /var/www/html/vendor/mpdf/mpdf/mpdf.php(3880): TTFontFile->getMetrics('/var/www/html/v...', 'dejavuserifcond...', 0, false, true, 0)
+#3 /var/www/html/vendor/mpdf/mpdf/mpdf.php(4246): mPDF->AddFont('dejavuserifcond...', '')
+#4 /var/www/html/vendor/mpdf/mpdf/mpdf.php(13621): mPDF->SetFont('dejavuserifcond...')
+#5 /var/www/html/vendor/mpdf/mpdf/mpdf.php(1287): mPDF->SetDefaultFont('serif')
+#6 /var/www/html/app/Controllers/Report.php(13): mPDF->__construct()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Report->index()
+#8 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-07 03:55:08 --> Cannot call constructor
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Report->__construct()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 03:57:28 --> Call to a member function add_package_path() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Report->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 04:02:44 --> Class 'FPDF' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Report->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 04:03:45 --> Class 'FPDF' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Report->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 04:05:01 --> Call to undefined method FPDF::Add_Page()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Report->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 04:10:57 --> Class 'App\Controllers\Mpdf' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Report->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-07 05:13:24 --> Unknown column 'sid' in 'where clause'
+CRITICAL - 2022-03-07 05:13:24 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\BankAccount->index('54')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BankAccount))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-07 05:16:49 --> Unknown column 'sid' in 'where clause'
+CRITICAL - 2022-03-07 05:37:33 --> Call to a member function delete() on array
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\BankAccount->delete('5')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BankAccount))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-07 05:56:03 --> Column 'bank_id' cannot be null
+ERROR - 2022-03-07 05:56:24 --> Column 'bank_id' cannot be null
+CRITICAL - 2022-03-07 06:19:59 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/bankaccount/edit.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 37, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/a...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('bankaccount/edi...', Array, true)
+#4 /var/www/html/app/Controllers/BankAccount.php(68): view('bankaccount/edi...', Array)
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\BankAccount->singleBankAccount('8')
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BankAccount))
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-07 06:23:55 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`bank_accounts`, CONSTRAINT `bank_accounts_ibfk_3` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-03-07 06:54:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::num_rows()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-07 06:55:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getNumRows()
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

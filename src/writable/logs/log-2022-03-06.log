@@ -1,0 +1,16 @@
+ERROR - 2022-03-06 23:08:35 --> Unknown column 'type' in 'field list'
+ERROR - 2022-03-06 23:10:07 --> Unknown column 'type' in 'field list'
+CRITICAL - 2022-03-06 23:24:46 --> syntax error, unexpected ';', expecting ')'
+#0 /var/www/html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/v...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-06 23:43:08 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers`, CONSTRAINT `suppliers_ibfk_1` FOREIGN KEY (`type_supplier_id`) REFERENCES `type_supplier` (`id`))
+ERROR - 2022-03-06 23:44:26 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers`, CONSTRAINT `suppliers_ibfk_1` FOREIGN KEY (`type_supplier_id`) REFERENCES `type_supplier` (`id`))
+ERROR - 2022-03-06 23:45:46 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers`, CONSTRAINT `suppliers_ibfk_1` FOREIGN KEY (`type_supplier_id`) REFERENCES `type_supplier` (`id`))
+ERROR - 2022-03-06 23:46:57 --> Cannot add or update a child row: a foreign key constraint fails (`sysfornecedores`.`suppliers`, CONSTRAINT `suppliers_ibfk_1` FOREIGN KEY (`type_supplier_id`) REFERENCES `type_supplier` (`id`))
